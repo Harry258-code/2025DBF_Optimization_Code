@@ -3,3 +3,5 @@ Score_Prediction.m is the only relevant file for working through configuration a
 Other details can be changed in the maxSpeed.m class: fuselage type (cross section and payload capacity), Airfoil, and landing gear type.
 
 Any file with sense in the name outlines mission scoring as parameters change.
+
+Main flow: Score_prediction -> combinded_score (handles extra data before providing score) -> maxSpeed (Calculates preformance for each mission) -> FuseCheck (handles errors with fuselage sizing) 
